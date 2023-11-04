@@ -1,0 +1,157 @@
+.banner{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #D2E9E9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #000;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+nav li:first-child{
+    margin-left: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000;
+}
+
+footer{
+    background-color: #526D82;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.contenidoFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.enlacePaginas a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.redesSociales a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    margin-right: 50px;
+}
+
+.facebook{
+    font-size: 20px;
+}
+
+.twitter{
+    font-size: 20px;
+}
+
+.instagram{
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.contenedorForm {
+    display: flex;
+    justify-content: center;
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Estilos para las columnas del formulario */
+.columnaIzquierda,
+.columnaDerecha {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilos para los campos de entrada y el checkbox */
+.columnaIzquierda input[type="text"],
+.columnaIzquierda input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el checkbox y su etiqueta */
+.columnaIzquierda .contenedorTerminos {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.columnaIzquierda .contenedorTerminos input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.columnaIzquierda .contenedorTerminos label {
+    margin: 0;
+    user-select: none;
+}
+
+/* Estilos para el botón */
+.columnaIzquierda button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+/* Estilos para el textarea */
+.columnaDerecha textarea {
+    width: 100%;
+    height: 160px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    box-sizing: border-box;
+}
